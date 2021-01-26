@@ -1,20 +1,250 @@
 <!DOCTYPE html>
 <head>
   <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
     rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous"
   />
 </head>
 
 <body>
+  <a name="home"></a>
   <div class="container">
-    <h3>4.8 Schmitt Gates</h3>
+    <h1 class="p-4">4.8 Schmitt Gates</h1>
+
+    <a href="#tujuan" class="mt-4">
+      <button class="btn btn-primary btn-block" type="button">Tujuan</button>
+    </a>
+    <a href="#alat" class="m-1">
+      <button class="btn btn-primary btn-block" type="button">Alat dan Bahan</button>
+    </a>
+    <a href="#teori" class="m-1">
+      <button class="btn btn-primary btn-block" type="button">Dasar Teori</button>
+    </a>
+
+    <a href="#percobaan" class="m-1">
+      <button class="btn btn-primary btn-block" type="button">Percobaan</button>
+    </a>
+
+    <a name="tujuan"><h2>Tujuan</h2></a><button class="btn btn-danger" type="button">Home</button></a>
+    <p>1. Memahami teori tentang scahmit gates</p>
+    <p>2. Memahami pengaplikasian tentang scahmit gates</p>
+
+    <a name="alat"><h2>Alat dan Bahan</h2></a>  <a href="#home"><button class="btn btn-danger" type="button">Home</button></a>
+    <h3 class="p-2">Alat</h3>
+    <h4>1. Voltmeter</h4>
+    <p>
+      Voltmeter adalah sebuah alat ukur yang biasa digunakan untuk mengukur
+      besar tegangan listrik yang ada dalam sebuah rangkaian listrik.
+    </p>
+    <img
+      class="img-fluid"
+      src="https://lh3.googleusercontent.com/-D_zpgBrT17s/X57u-1yVIOI/AAAAAAAABNs/8hK6wuxeY18TvzcPRgw2heSc4ozFcWInACLcBGAsYHQ/voltmeter.jpg"
+      alt=""
+    />
+
+    <h4>2.Ampermeter</h4>
+    <p>
+      Amperemeter adalah salah satu alat ukur yang biasa digunakan untuk
+      mengukur seberapa besar kuat arus listrik yang terdapat pada sebuah
+      rangkaian
+    </p>
+    <img
+      class="img-fluid"
+      src="https://lh3.googleusercontent.com/-I-25oJxzEx0/X57vLiJNG-I/AAAAAAAABN0/8tTs1Rng3PUrHhduIJ__W2zWOBz7BmPTACLcBGAsYHQ/ampertmeter.jfif"
+      alt=""
+    />
+
+    <h4>3.Power supply</h4>
+    <p>
+      Power Supply atau dalam bahasa Indonesia disebut dengan Catu Daya adalah
+      suatu alat listrik yang dapat menyediakan energi listrik untuk perangkat
+      listrik ataupun elektronika lainnya.
+    </p>
+    <img
+      class="img-fluid"
+      src="https://lh3.googleusercontent.com/-l5ZkdwVLMR4/X57vihiIDQI/AAAAAAAABOA/zL7mMBkby40_EKgsOT_yC4ohLOvuMgetACLcBGAsYHQ/psu.jpg"
+      alt=""
+    />
+
+    <h3 class="p-2">Bahan</h3>
+    <h4 class="p-2">1.OR Gates (74LS02)</h4>
     <div class="row">
-      <div class="col-md-8">
-        <img class="img-fluid" src="" alt="" />
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/nor.jpg" alt="" />
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/nor.png" alt="" />
       </div>
     </div>
+    <h5>Features and Specifications</h5>
+    <ul>
+      <li>Operating voltage range: +4.75 to +5.25V</li>
+      <li>Maximum supply voltage:7V</li>
+      <li>Maximum current allowed to draw through each gate output: 8mA</li>
+      <li>TTL outputs</li>
+      <li>Low power consumption</li>
+      <li>Maximum ESD: 3.5KV</li>
+      <li>Typical Rise Time: 15ns</li>
+      <li>Maximum ESD: 3.5KV</li>
+      <li>Typical Fall Time: 15ns/li></li>
+      <li>Operating temperature:0°C to 70°C</li>
+      <li>Storage Temperature: -65°C to 150°C</li>
+    </ul>
+
+    <h4 class="p-2">2.OR Gates (74LS32)</h4>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/or.jpg" alt="" />
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/OR pinout.png" alt="" />
+      </div>
+    </div>
+    <h5>Features and Specifications</h5>
+    <ul>
+      <li>Dual Input OR Gate – Quad Package</li>
+      <li>Supply Voltage: 5 to 7V</li>
+      <li>Input Voltage: 5 to 7V</li>
+      <li>Operating temperature range = -55°C to 125°C</li>
+      <li>Available in 14-pin SOIC package</li>
+    </ul>
+
+    <h4 class="p-2">3.AND Gates (74LS32)</h4>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/and.png" alt="" />
+      </div>
+    </div>
+    <h5>Features and Specifications</h5>
+    <ul>
+      <li>Supply Voltage 7V</li>
+      <li>Input Voltage 7V</li>
+      <li>Input Voltage: 5 to 7V</li>
+      <li>Input Voltage 7V</li>
+      <li>Input Voltage 7V</li>
+    </ul>
+
+    <h4 class="p-2">4.NAND Gates (DM74LS00)</h4>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/nand.jpg" alt="" />
+      </div>
+    </div>
+    <h5>Features and Specifications</h5>
+    <ul>
+      <li>Supply Voltage 7V</li>
+      <li>Input Voltage 7V</li>
+      <li>Input Voltage: 5 to 7V</li>
+      <li>Input Voltage 7V</li>
+      <li>Input Voltage 7V</li>
+    </ul>
+
+    <a name="teori">
+      <h2>Dasar Teori</h2><button class="btn btn-danger" type="button">Home</button></a>
+    </a>
+      
+
+    <div class="row align-content-center">
+      <div class="col-md-8">
+        <img class="img-fluid" src="gambar/gambar1.png" alt="gmbar 1" />
+      </div>
+    </div>
+    <div class="row align-content-center">
+      <div class="col-md-8">
+        <img class="img-fluid" src="gambar/gambar2.png" alt="gmbar 2" />
+      </div>
+    </div>
+    <div class="row align-content-center">
+      <div class="col-md-8">
+        <img class="img-fluid" src="gambar/gambar3.png" alt="gmbar 3" />
+      </div>
+    </div>
+    <div class="row align-content-center">
+      <div class="col-md-8">
+        <img class="img-fluid" src="gambar/gambar4.png" alt="gmbar 4" />
+      </div>
+    </div>
+    <div class="row align-content-center">
+      <div class="col-md-8">
+        <img class="img-fluid" src="gambar/gambar5.png" alt="gmbar 5" />
+      </div>
+    </div>
+    <div class="row align-content-center">
+      <div class="col-md-8">
+        <img class="img-fluid" src="gambar/gambar6.png" alt="gmbar 6" />
+      </div>
+    </div>
+    <div class="row align-content-center">
+      <div class="col-md-8">
+        <img class="img-fluid" src="gambar/gambar7.png" alt="gmbar 7" />
+      </div>
+    </div>
+
+    <a name="percobaan">
+      <h2>Percobaan</h2><button class="btn btn-danger" type="button">Home</button></a>
+    </a>
+      
+    <h3>Prosedur Percobaan</h3>
+    <ul>
+      <li>Siapkan bahan bahan dan alat yang diperlukan</li>
+      <li>Cek fungsionalitas dari masing masing alat dan bahan</li>
+      <li>Cek datasheet dari masing masing alat dan bahan</li>
+      <li>
+        Rangkailah rangkaian and, nor, nand dan or seperti yang ada pada buku
+      </li>
+      <li>Sambunglah rangkaian dengan catu daya</li>
+      <li>
+        Cek apakah rangkaian sudah berjalan dengan baik atau belum dengan
+        multimeter/li>
+      </li>
+    </ul>
+    <h3>Rangkaian Percobaan</h3>
+    <div class="row mt-2">
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/rangkaian1.PNG" alt="" />
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/rangkaian2.PNG" alt="" />
+      </div>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/rangkaian3.PNG" alt="" />
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-md-6">
+        <img class="img-fluid" src="gambar/rangkaian4.PNG" alt="" />
+      </div>
+    </div>
+
+    <h3>Video</h3>
+    <div class="embed-responsive  embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://drive.google.com/file/d/13k1iU3Efpf5sdv86s3TEx2wJK-bb8jvC/preview"></iframe>
+    </div>
+
+    <h3>Download Files</h3>
+    <button class="btn btn-success" type="button">HTML</button> </br>
+    <a href="https://drive.google.com/file/d/13k1iU3Efpf5sdv86s3TEx2wJK-bb8jvC/view?usp=sharing">
+    <button class="btn btn-success" type="button">Video</button></br>
+  </a>
+    <button class="btn btn-success" type="button">Rangkaian Proteus</button></br>
+    <a href="https://drive.google.com/file/d/13MKlnNotDCRrKJEgJzUTMTWF8rF5aTmd/view?usp=sharing">
+      <button class="btn btn-success" type="button">AND Datasheet</button></br>
+    </a>
+    <a href="https://drive.google.com/file/d/1dRoJgmFbg3tadivHqyqInONJ4E98QZGm/view?usp=sharing">
+    <button class="btn btn-success" type="button">NOR Datasheet</button></br>
+    </a>
+    <a href="https://drive.google.com/file/d/1XtAqYsk4aDwrPHAcUEA77ESoprQHI0yk/view?usp=sharing">
+    <button class="btn btn-success" type="button">OR  Datasheet</button></br>
+    </a>
+    <a href="https://drive.google.com/file/d/1fGu0Yts_Y9Uti139SK8oHXDICCz3ztwc/view?usp=sharing">
+    <button class="btn btn-success" type="button">NAND Datasheet</button></br>
+    </a>
   </div>
 </body>
